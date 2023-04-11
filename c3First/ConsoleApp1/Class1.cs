@@ -13,13 +13,14 @@ namespace ConsoleApp1
             string nimi = "Python";
             Class2.Tere(nimi);
             float a = 10;
-            float b = 20;
+            float b = 10;
             int n = 3;
             char z = '/';
             float vastus = Class2.Korruta(a, b, n);
             float vastuCalc = Class2.Calc(a, b, z);
             Console.WriteLine(vastuCalc);
             Console.WriteLine(vastus);
+            Class2.Zvezdi();
             Class2.Zvezd();
             /*
             Random rnd = new Random();

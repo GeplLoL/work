@@ -46,9 +46,20 @@ namespace ConsoleApp1
             Console.WriteLine();
             return vastus;
         }
+        public static void Zvezdi()
+        {
+            int n = int.Parse(Console.ReadLine());
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write('*');
+            }
+        }
         public static void Zvezd()
         {
-            for (int i = 0; i < 3; i++)
+            Console.WriteLine();
+            Console.WriteLine("Sisse count ");
+            int s = int.Parse(Console.ReadLine());
+            for (int i = 0; i < s; i++)
             {
                 Console.WriteLine();
                 int n = int.Parse(Console.ReadLine());
